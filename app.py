@@ -6,10 +6,10 @@ app=Flask(__name__)
 app.secret_key = 'ARUNkumar'
 
 # database connection details 
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'arun12345'
-app.config['MYSQL_DB'] = 'pythonlogin'
+app.config['MYSQL_HOST'] = ' '
+app.config['MYSQL_USER'] = ' '
+app.config['MYSQL_PASSWORD'] = ' '
+app.config['MYSQL_DB'] = ' '
 
 # Intialize MySQL
 mysql = MySQL(app)
